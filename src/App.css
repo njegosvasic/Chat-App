@@ -1,0 +1,526 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+header .header{
+  background-color: #fff;
+  height: 45px;
+}
+header a img{
+  width: 134px;
+margin-top: 4px;
+}
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.login-page .form .login{
+  margin-top: -31px;
+  margin-bottom: 26px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#34568B);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+button {
+  outline: 0;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#34568B);
+  width: 200px;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #34568B;
+  text-decoration: none;
+}
+
+
+
+body {
+  background-color: #34568B;
+  background-image: linear-gradient(45deg,#328f8a,#34568B,#328f8a);
+  height: 100vh;
+}
+
+.helper{
+  margin-top:20px;
+  margin-bottom: 15px;
+}
+
+span {
+  color:blue;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+span:hover {
+  color: red;
+}
+
+.errorMsg {
+  color: red;
+  font-size: 16px;
+  margin: 0px;
+  padding:5px;
+}
+
+.imgContainer {
+  position: relative;
+  width: auto;
+  height: 40px;
+}
+
+
+.chat-pozadina{
+  margin-left: 0px; margin-right: 0px; display: flex; flex-flow: row wrap; flex-grow: 0; flex-shrink: 0; align-items: normal; justify-content: flex-start;
+}
+
+.chatovi{
+  box-sizing: border-box; min-height: 1px; position: relative; padding-left: 0px; padding-right: 0px; width: 25%; flex: 0 0 25%; max-width: 25%; margin-left: 0%; right: auto; left: auto; height: 91vh;background-color: white;border-width: 1px;border-style: solid; border-color: gray;
+}
+
+.novichatovi{
+  width: 100%;
+  height: 50px;
+}
+
+.chat-input{
+  float:left;
+  height: 30px;
+  margin:5px;
+  width:55%;
+  font-size: 18px;
+}
+
+.dodaj{
+  float:right;
+  width:30%;
+  height: 35px!important;
+  margin:5px;
+  background-image: linear-gradient(45deg,#328f8a,#34568B,#328f8a);
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+.posalji:hover, .dodaj:hover{
+  background-image: linear-gradient(45deg,#779997,#5d7499,#66b4b0);
+  cursor: pointer;
+}
+
+.clanovi{
+box-sizing: border-box; min-height: 1px; position: relative; padding-left: 0px; padding-right: 0px; width: 25%; flex: 0 0 25%; max-width: 25%; margin-left: 0%; right: auto; left: auto; height: 91vh; background-color: white;
+}
+
+.chat{
+box-sizing: border-box; min-height: 1px; position: relative; padding-left: 0px; padding-right: 0px; width: 50%; flex: 0 0 50%; max-width: 50%; margin-left: 0%; right: auto; left: auto; height: 91vh;background-color: white;border-width: 1px;border-style: solid; border-color: gray;
+}
+
+
+.vreme{
+  width: 100%; text-align: center; padding-top: 4px; padding-bottom: 10px; font-size: 15px; color: rgba(0, 0, 0, 0.4)
+}
+
+.dolazna-poruka-cont{
+  width: 100%;
+  margin-top: 5px;
+  min-height: 50px;
+  max-height: auto;
+}
+.dolazna-poruka{
+  float:left;
+  background-image: linear-gradient(45deg,#328f8a,#34568B,#328f8a);
+  color:white;
+  font-size: 18px;
+  padding: 12px;
+  min-height: 30px;
+  max-height: auto;
+  max-width: 60%;
+  word-break: break-all;
+  word-wrap: break-word;
+  display: block;
+  text-align: left;
+}
+
+.odlazna-poruka-cont{
+  width: 100%;
+  margin-top: 5px;
+  min-height: 50px;
+  max-height: auto;
+  overflow: auto;
+}
+.odlazna-poruka{
+  float:right;
+  color: linear-gradient(45deg,#328f8a,#34568B,#328f8a);
+  background-color:white;
+  font-size: 18px;
+  padding: 12px;
+  min-height: 30px;
+  max-height: auto;
+  max-width: 60%;
+  word-break: break-all;
+  word-wrap: break-word;
+  display: block;
+  text-align: left;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+}
+.chats-page {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 66px;
+  background-image: linear-gradient(45deg,#328f8a,#34568B,#328f8a);
+}
+
+.logo-tab {
+  position: absolute;
+  left: 22px;
+  top: 12px;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.logout-tab {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  color: white;
+  cursor: pointer;
+}
+
+.displejime{
+  position: absolute;
+  top: 22px;
+  right: 100px;
+  color: white;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin-top: 0px!important;
+}
+
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sent p {
+  color: white;
+  background-image: linear-gradient(45deg,#328f8a,#34568B,#328f8a);
+  align-self: flex-end;
+}
+.received p {
+  background: #e5e5ea;
+  color: black;
+}
+
+.slicica{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px 5px;
+}
+
+.poruka{
+  max-width: 500px;
+  margin-bottom: 12px;
+  line-height: 24px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  position: relative;
+  color: white;
+  max-height: auto;
+  word-break: break-all;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.imput-poruka{
+  line-height: 1.5;
+  width: 80%;
+  font-size: 1.5rem;
+  background: #f2f2f2;
+  color: linear-gradient(45deg,#328f8a,#34568B,#328f8a);
+  outline: none;
+  border: none;
+  padding: 0 10px;
+  float: left;
+  height: 60px;
+  margin: 0;
+}
+
+.posalji {
+  background-image: linear-gradient(45deg,#328f8a,#34568B,#328f8a); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+  width: 15%;
+  float: right;
+  height: 60px;
+}
+
+main::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+main::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+
+main::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(45deg,#328f8a,#34568B,#328f8a);
+}
+
+main {
+  padding: 10px;
+  height: 57vh;
+  margin: 10vh 0 10vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.lista{
+
+  height: 75vh;
+  background-color: white;
+}
+
+.username{
+  background: none;
+  margin: 0px !important;
+  font-weight: bold;
+
+}
+.timestamp{
+  font-size: 10px;
+  background: none;
+  ;
+}
+
+.txt {
+  text-align: center;
+  color: #34568B;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  width: 100%;
+  margin-right: 0;
+}
+
+.txt2{
+  text-align: center;
+  color: #34568B;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+  width: 100%;
+  margin: 0;
+}
+
+.rooms{
+  width:100%;
+  height: 70px;
+  background-color: gray;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.rooms:hover{
+  cursor: pointer;
+  background-image: linear-gradient(45deg,#779997,#5d7499,#66b4b0);
+}
+
+
+.emptyChattxt{
+  text-align: center;
+  height: 30vh;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+  padding-top: 40vh;
+  background: -webkit-linear-gradient(45deg,#328f8a,#34568B,#328f8a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.searchinput{
+  width: 70%;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dataResult {
+  margin-top: 0px;
+  width: 70%;
+  height: 200px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background: white !important;
+  padding-top: 20px;
+}
+
+.dataResult::-webkit-scrollbar {
+  display: none;
+}
+
+.dataResult .dataItem {
+  width: 100%;
+  height: 50px;
+  display: block;
+  align-items: center;
+  color: black;
+  background: white !important;
+  
+}
+
+
+.dataItem p {
+  margin-left: 0px;
+}
+
+.inputtypetext{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+a{
+  padding-top: 1px;
+}
+.dataItem:hover{
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+
+.prijateljinput{
+  width: 70%;
+  height: 30px;
+  font-size: 18px;
+}
+
+.dobrodosli{
+  text-transform: uppercase;
+  color:white;
+  margin-top: auto ;
+  margin-bottom: auto;
+  font-size: 50px;
+  padding-top: 30vh;
+}
+
+.dobrodoslibtn{
+  background: white;
+  height: 60px;
+  width: 300px;
+  color: blue;
+  font-size: 30px;
+  font-weight: bold;
+}
+.dobrodoslibtn:hover{
+  cursor: pointer;
+  background:rgb(204, 214, 216)
+}
+
+.klikni{
+  color: white !important;;
+  font-size:18px;
+}
+
+.dodajkorisnika{
+  width: 295px;
+  height: 50px;
+  font-size: 25px;
+}
+
